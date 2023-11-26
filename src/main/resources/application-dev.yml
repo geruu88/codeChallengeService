@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  error:
+    include-message=always: always
+
+spring:
+  application:
+    name: coding-challenge-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/coding_challenge_service_db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+
+  flyway:
+    out-of-order: false
+    validate-on-migrate: false
+
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+
