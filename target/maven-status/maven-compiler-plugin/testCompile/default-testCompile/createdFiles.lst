@@ -1,0 +1,4 @@
+com\example\codingchallenge\integration\CalculateServiceIntegrationTest.class
+com\example\codingchallenge\CodingChallengeApplicationTests.class
+com\example\codingchallenge\mapper\PlayerMapperTest.class
+com\example\codingchallenge\service\CalculateServiceTest.class

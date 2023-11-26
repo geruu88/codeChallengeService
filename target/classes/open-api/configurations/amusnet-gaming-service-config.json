@@ -1,0 +1,12 @@
+{
+  "dateLibrary": "java8-localdatetime",
+  "library":"spring-cloud",
+  "apiPackage": "com.amusnet.service.api",
+  "modelPackage": "com.amusnet.service.model",
+  "interfaceOnly": true,
+  "useBeanValidation": true,
+  "performBeanValidation": true,
+  "serializableModel": true,
+  "additionalModelTypeAnnotations": "@com.fasterxml.jackson.annotation.JsonInclude(com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL) @lombok.Builder(toBuilder=true) @lombok.NoArgsConstructor @lombok.AllArgsConstructor",
+  "removeEnumValuePrefix": false
+}
